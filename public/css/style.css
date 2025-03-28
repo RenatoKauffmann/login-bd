@@ -1,0 +1,64 @@
+@import url('public/img/fundo.jpg');
+
+
+body{
+   background: url('../img/fundo.jpg'); 
+   background-size: cover;
+   font-family: "Boldonse", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   color: #ffffff;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label{
+    display: block;
+    margin: 5px 0;
+}
+
+.form input{
+    border: 3px solid rgb(27 22 74);
+    border-radius: 12px;
+    padding:4px;
+    outline-width: 2;
+    outline-color: rgb(241, 35, 35);
+    outline-offset: -1px;
+    font-weight: bold;
+    font-family: "Boldonse", system-ui;
+    font-size: 14px;
+}
+
+
+.btn{
+    width: 100%;
+    margin: 16px 0;
+    padding: 0;
+    color: #ffffff;
+    background:  hsl(345, 100%, 34%);
+    cursor: pointer;
+    outline-offset: 4px;
+    border: none;
+    border-radius: 12px;
+    font-family: "Boldonse", system-ui;
+}
+
+.form button:active .front{
+    transform: translateY(-2px);
+}
+
+.form .front{
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+}
+
+
